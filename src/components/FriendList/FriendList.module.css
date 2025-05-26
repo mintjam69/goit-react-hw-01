@@ -1,0 +1,14 @@
+.friendList {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.friendItem {
+    border: 2px solid var(--color-dark-gray);
+    border-radius: 10px;
+    padding: 12px;
+    text-align: center;
+    background-color: var(--color-light); }

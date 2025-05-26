@@ -1,0 +1,79 @@
+.profileCard {
+    max-width: 500px;
+    border: 3px solid var(--color-dark-gray);
+    border-radius: 8px;
+    background-color: #f1eaeaec;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    overflow: hidden;
+}
+
+.avatarContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px;
+}
+
+.image {
+    max-width: 200px;
+    border-radius: 50%;
+    background-color: var(--color-dark-gray);
+    margin-bottom: 28px;
+}
+
+.name {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.username {
+    font-size: 32px;
+    color: var(--color-light-gray);
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.location {
+    font-size: 22px;
+    color: var(--color-light-gray);
+    margin-bottom: 10px;
+}
+
+.socialList {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-gray);
+    border-top: 3px solid var(--color-dark-gray);
+    list-style-type: none;
+}
+
+.socialItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: calc(100% / 3);
+    padding: 20px;
+    font-size: 28px;
+}
+
+.socialItem:nth-child(2) {
+    border-left: 3px solid var(--color-dark-gray);
+    border-right: 3px solid var(--color-dark-gray);
+}
+
+.label {
+    font-size: 28px;
+    font-weight: 550;
+    color: var(--color-black);
+}
+
+.quantity {
+    font-weight: 600;
+    color: var(--color-black); }
